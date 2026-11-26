@@ -1,14 +1,17 @@
 
 import './App.css'
-import Parent from './components/Parent'
-import Timer from './components/Timer'
+import SquareCalc from './components/SquareCalc'
+import SortTableList from './components/SortTableList'
+import PeopleList from './components/PeopleList'
 
 function App() {
 
 
   return (
     <main>
-      <Timer />
+      {/* <SquareCalc /> */}
+      {/* <SortTableList /> */}
+      <PeopleList />
     </main>
   )
 }
